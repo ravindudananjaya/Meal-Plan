@@ -1,0 +1,143 @@
+body{
+	background-color: white;	
+	font-family: 'Poppins', sans-serif;	
+}
+
+.marg-bottom{
+	margin-bottom: -29px;
+}
+
+.navigation-bar {
+	background-color: black!important;
+	padding: 25px 15px;
+
+    .navigation-bar__heading {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+.meal-stats{
+	color: #3D3D3D;
+	padding: 21px 33px;
+
+    .meal-stats__digit{
+        font-size: 8vw;
+        font-weight: 700;   
+    }
+
+    .meal-stats__unit{
+        font-size: 3.5vw;
+        padding-top: 19px;
+        font-weight: 700;
+    }
+    
+    
+    .meal-stats__type{
+        font-size: 3.5vw;
+        text-align: center !important;
+        font-weight: 500;
+    }
+    
+}
+
+
+
+.shopping-list{
+	width: 90%;
+	margin-bottom: 42px;
+	margin-top: 10px;
+	padding: 10px 10px;
+
+    .shopping-list__box{
+        background: linear-gradient(89deg, #FFBA00 -2.48%, #FBD56E 145.24%);
+        border-radius: 8px;
+        padding: 8px 7px;
+        box-shadow: 2px 5px 9px 0px #fbd56e;
+
+        .shopping-list__cart{
+            padding: 7px 0px;
+            width: 7vw;
+        }
+        
+        .shopping-list__arrow{
+            padding: 9px 0px;
+            width: 7vw;
+        }
+        
+        .shopping-list__text-box{
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        
+        .shopping-list__header {
+            margin-bottom: 0rem;
+            font-size: 4.6vw;
+            font-weight: 600;
+        }
+        
+        .shopping-list__sub-text{
+            font-size: 3.2vw;
+            margin-bottom: 0rem;
+            font-weight: 400;
+        }        
+    }
+}
+
+
+
+
+.meal-card{
+	width: 100% !important;
+	border: 0px !important;
+	margin-bottom: 13px; 
+	background: linear-gradient(180deg, transparent 47.52%, black 90.24%);
+	border-radius: 13px;
+
+    .meal-card__background{
+        border-radius: 13px;
+        box-shadow: 0px 3px 9px -2px black;
+        z-index: -1;
+    }
+    
+    .meal-card__background-1{
+        box-shadow: 0px 3px 9px -2px black;
+        border-radius: 15px;
+    }
+
+    .meal-card__header{
+		font-size: 18px;
+		font-weight: 600;
+		border-radius: 10px;
+		background-color:  #012CFF;
+		margin-left: -5px;
+	}
+
+	.meal-card__sub-text{
+		font-size: 17px;
+		line-height: 32px;
+		padding-left: 4px;
+		font-weight: 600;
+		margin-left: -5px;
+	}
+
+    .Card__images{
+        text-align: right;
+        position: absolute;
+        right: 21px;
+        bottom: 15px;
+
+        .card__image-1{
+            padding-left: 25px;
+            width: 50px;}
+        
+        .card__image-2{
+            padding-left: 25px;
+            width: 45px;
+        }
+    }    
+}
+
