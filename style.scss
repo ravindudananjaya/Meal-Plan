@@ -1,9 +1,9 @@
-body{
+body {
 	background-color: white;	
 	font-family: 'Poppins', sans-serif;	
 }
 
-.marg-bottom{
+.marg-bottom {
 	margin-bottom: -29px;
 }
 
@@ -20,55 +20,53 @@ body{
 
 
 
-.meal-stats{
+.meal-stats {
 	color: #3D3D3D;
 	padding: 21px 33px;
 
-    .meal-stats__digit{
+    .meal-stats__digit {
         font-size: 8vw;
         font-weight: 700;   
     }
 
-    .meal-stats__unit{
+    .meal-stats__unit {
         font-size: 3.5vw;
         padding-top: 19px;
         font-weight: 700;
     }
-    
-    
-    .meal-stats__type{
+      
+    .meal-stats__type {
         font-size: 3.5vw;
         text-align: center !important;
         font-weight: 500;
-    }
-    
+    }   
 }
 
 
 
-.shopping-list{
+.shopping-list {
 	width: 90%;
 	margin-bottom: 42px;
 	margin-top: 10px;
 	padding: 10px 10px;
 
-    .shopping-list__box{
+    .shopping-list__box {
         background: linear-gradient(89deg, #FFBA00 -2.48%, #FBD56E 145.24%);
         border-radius: 8px;
         padding: 8px 7px;
         box-shadow: 2px 5px 9px 0px #fbd56e;
 
-        .shopping-list__cart{
+        .shopping-list__cart {
             padding: 7px 0px;
             width: 7vw;
         }
         
-        .shopping-list__arrow{
+        .shopping-list__arrow {
             padding: 9px 0px;
             width: 7vw;
         }
         
-        .shopping-list__text-box{
+        .shopping-list__text-box {
             padding-right: 0px;
             padding-left: 0px;
         }
@@ -79,7 +77,7 @@ body{
             font-weight: 600;
         }
         
-        .shopping-list__sub-text{
+        .shopping-list__sub-text {
             font-size: 3.2vw;
             margin-bottom: 0rem;
             font-weight: 400;
@@ -90,25 +88,25 @@ body{
 
 
 
-.meal-card{
+.meal-card {
 	width: 100% !important;
 	border: 0px !important;
 	margin-bottom: 13px; 
 	background: linear-gradient(180deg, transparent 47.52%, black 90.24%);
 	border-radius: 13px;
 
-    .meal-card__background{
+    .meal-card__background {
         border-radius: 13px;
         box-shadow: 0px 3px 9px -2px black;
         z-index: -1;
     }
     
-    .meal-card__background-1{
+    .meal-card__background-1 {
         box-shadow: 0px 3px 9px -2px black;
         border-radius: 15px;
     }
 
-    .meal-card__header{
+    .meal-card__header {
 		font-size: 18px;
 		font-weight: 600;
 		border-radius: 10px;
@@ -116,7 +114,7 @@ body{
 		margin-left: -5px;
 	}
 
-	.meal-card__sub-text{
+	.meal-card__sub-text {
 		font-size: 17px;
 		line-height: 32px;
 		padding-left: 4px;
@@ -124,17 +122,17 @@ body{
 		margin-left: -5px;
 	}
 
-    .Card__images{
+    .Card__images {
         text-align: right;
         position: absolute;
         right: 21px;
         bottom: 15px;
 
-        .card__image-1{
+        .card__image-1 {
             padding-left: 25px;
             width: 50px;}
         
-        .card__image-2{
+        .card__image-2 {
             padding-left: 25px;
             width: 45px;
         }
