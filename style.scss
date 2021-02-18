@@ -14,7 +14,9 @@ body {
     color: black;
 
     .navbar__row{
-        width: -webkit-fill-available;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
 
         svg path {
             fill: black;

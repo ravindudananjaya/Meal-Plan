@@ -15,7 +15,9 @@ body {
 }
 
 .navigation-bar .navbar__row {
-  width: -webkit-fill-available;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navigation-bar .navbar__row svg path {
