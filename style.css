@@ -61,8 +61,6 @@ body {
   background: linear-gradient(89deg, #FFBA00 -2.48%, #FBD56E 145.24%);
   border-radius: 8px;
   padding: 8px 7px;
-  -webkit-box-shadow: -1px 7px 11px 0px #fbd56e5;
-          box-shadow: -1px 7px 11px 0px #fbd56e5;
 }
 
 .shopping-list .shopping-list__box .shopping-list__cart {
