@@ -10,9 +10,14 @@ body {
 .navigation-bar {
   background-color: black !important;
   padding: 25px 15px;
+  text-align: center;
 }
 
-.navigation-bar .navigation-bar__heading {
+.navigation-bar .navbar__row {
+  width: -webkit-fill-available;
+}
+
+.navigation-bar .navbar__row .navigation-bar__heading {
   font-size: 1.7rem;
   font-weight: 700;
   margin-bottom: 0px;
