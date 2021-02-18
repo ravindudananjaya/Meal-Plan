@@ -1,5 +1,5 @@
 body {
-	background-color: white;	
+	background-color: black;	
 	font-family: 'Poppins', sans-serif;	
 }
 
@@ -8,12 +8,17 @@ body {
 }
 
 .navigation-bar {
-	background-color: black!important;
+	background-color: white!important;
 	padding: 25px 15px;
     text-align: center;
+    color: black;
 
     .navbar__row{
         width: -webkit-fill-available;
+
+        svg path {
+            fill: black;
+        }
         
         .navigation-bar__heading {
             font-size: 1.7rem;
@@ -26,7 +31,7 @@ body {
 
 
 .meal-stats {
-	color: #3D3D3D;
+	color: #f8f9fac7;
 	padding: 21px 33px;
 
     .meal-stats__digit {
@@ -59,7 +64,7 @@ body {
         background: linear-gradient(89deg, #FFBA00 -2.48%, #FBD56E 145.24%);
         border-radius: 8px;
         padding: 8px 7px;
-        box-shadow: 2px 5px 9px 0px #fbd56e;
+        box-shadow: -1px 7px 11px 0px #fbd56e5;
 
         .shopping-list__cart {
             padding: 7px 0px;
