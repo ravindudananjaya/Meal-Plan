@@ -161,32 +161,28 @@ body {
 .fade-hover:hover .shopping-list__cart {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  width: 7vw;
-  padding: 20px 0px;
+  margin-left: 40px;
 }
 
 .fade-hover:hover .shopping-list__arrow {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  width: 4vw;
-  padding: 20px 0px;
+  margin-right: 40px;
 }
 
 .fade-hover:hover .shopping-list__text-box {
-  padding: 20px 0px;
+  padding: 25px 7px;
 }
 
 .fade-hover:hover .shopping-list__header {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   font-weight: 600;
-  font-size: 4.7vw;
 }
 
 .fade-hover:hover .shopping-list__sub-text {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  font-size: 3.9vw;
 }
 
 .meal-card {
@@ -254,45 +250,28 @@ body {
   transition: 0.3s;
 }
 
-.shp {
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
+.footer {
+  position: fixed;
+  right: 38px;
+  bottom: -200px;
+  color: black;
   text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+  z-index: 45;
 }
 
-.shp span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+.footer .footer__image {
+  width: 60px;
+  -webkit-transition: 00.3s;
+  transition: 00.3s;
 }
 
-.shp span:after {
-  content: '<img class="shopping-list__arrow" alt="" src="Images\left.svg">';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+.footer svg path {
+  fill: #000000;
 }
 
-.shp:hover span {
-  padding-right: 25px;
-}
-
-.shp:hover span:after {
-  opacity: 1;
-  right: 0;
+.footer .footer__image:hover {
+  width: 70px;
+  -webkit-transition: 00.3s;
+  transition: 00.3s;
 }
 /*# sourceMappingURL=style.css.map */
