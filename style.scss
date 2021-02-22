@@ -36,12 +36,33 @@ body {
 
         svg path {
             fill: black;
+            transition: 0.3s;
         }
-        
+
         .navigation-bar__heading {
             font-size: 1.7rem;
             font-weight: 700;
             margin-bottom: 0px;
+        }
+
+        .navigation-bar__info{
+            width: 32px;   
+        }
+
+// HOVER EFFECT
+
+        .navigation-bar__info-col:hover{
+            svg path {
+                fill: rgb(145, 144, 144);
+                transition: 0.3s;
+            }
+        }
+
+        .navigation-bar__back-col:hover{
+            svg path {
+                fill: rgb(145, 144, 144);
+                transition: 0.3s;
+            }
         }
     }
 }
@@ -132,6 +153,8 @@ body {
     }
 }
 
+
+//hover effect
                 .fade-hover {
                     border: none;
                     color: rgb(0, 0, 0);
@@ -150,7 +173,7 @@ body {
 
                     .shopping-list__cart{
                         transition: 0.3s;
-                        width: 8vw;
+                        width: 7vw;
                         padding:20px 0px;
                         // margin-right: 40px;
                     }
@@ -185,11 +208,14 @@ body {
 
 .meal-card {
 	width: 100% !important;
+    height: 75% !important;
 	border: 0px !important;
 	margin-bottom: 13px; 
 	background: transparent;
     border-radius: 13px;
     box-shadow:inset 0px -20px 20px 0px #ffffff;
+    margin-left: auto;
+    margin-right: auto;
 
 
     .meal-card__background-1 {
@@ -203,7 +229,7 @@ body {
 		font-size: 18px;
 		font-weight: 600;
 		border-radius: 10px;
-		background-color:  #012CFF;
+		background-color: #5d5d5d;
 		margin-left: -5px;
 	}
 
@@ -223,6 +249,7 @@ body {
 
          svg path {
             fill: black;
+            transition: 0.3s;
         }
 
         .card__image-1 {
@@ -233,7 +260,16 @@ body {
             padding-left: 25px;
             width: 45px;
         }
-    }    
+    }
+    
+//hover effect
+
+    .Card__images:hover{
+        svg path {
+            fill: white;
+            transition: 0.3s;
+        }
+    }
 }
 
 .shp {
