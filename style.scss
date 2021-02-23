@@ -221,8 +221,24 @@ body {
     padding-bottom: 12px;
 
 
-    .meal-card__background-1 {
+    .meal-card__background {
         border-radius: 13px;
+        width: inherit;
+        object-fit: cover;
+        width: 100%;
+        height: 172px;
+    }
+
+    .meal-card__background-1-1 {
+        border-radius: 13px 0px 0px 13px;
+        width: inherit;
+        object-fit: cover;
+        width: 100%;
+        height: 172px;
+    }
+
+    .meal-card__background-1-2 {
+        border-radius: 0px 13px 13px 0px;
         width: inherit;
         object-fit: cover;
         width: 100%;
