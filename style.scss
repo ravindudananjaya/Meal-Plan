@@ -73,7 +73,7 @@ body {
 
 .meal-stats {
 	color: #f8f9fac7;
-	padding: 21px 33px;
+	padding: 16px 33px;
 
     .meal-stats__digit {
         font-size: 8vw;
@@ -99,7 +99,7 @@ body {
 	width: 90%;
 	margin-bottom: 42px;
 	margin-top: 10px;
-	padding: 10px 10px;
+	padding: 14px 10px;
 
     .shopping-list__box {
         background: linear-gradient(89deg, #FFBA00 -2.48%, #FBD56E 145.24%);
@@ -218,12 +218,15 @@ body {
     // box-shadow:inset 0px -20px 20px 0px #ffffff;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 12px;
 
 
     .meal-card__background-1 {
         border-radius: 13px;
         width: inherit;
-        filter: opacity(0.8);
+        object-fit: cover;
+        width: 100%;
+        height: 172px;
     }
  
 
@@ -280,13 +283,14 @@ body {
   .footer {
     position: fixed;
     right: 38px;
-    bottom: -200px;
+    bottom: 27px;
     color: rgb(0, 0, 0);
     text-align: center;
     z-index: 45;
     
     .footer__image{
         width: 60px;
+        height: 64px;
         transition: 00.3s;
     }
 
