@@ -238,6 +238,18 @@ body {
 		margin-left: -5px;
 	}
 
+    .card-img-overlay:hover {
+        .meal-card__header {;
+            background-color: #f3bb04;
+        }
+      
+        svg path {
+            fill: rgb(255, 255, 255);
+            transition: 0.3s;
+        }
+
+	}
+
 	.meal-card__sub-text {
 		font-size: 17px;
 		line-height: 32px;
@@ -250,7 +262,7 @@ body {
         text-align: right;
         position: absolute;
         right: 21px;
-        bottom: 15px;
+        bottom: 26px;
 
          svg path {
             fill: black;
@@ -266,6 +278,8 @@ body {
             width: 45px;
         }
     }
+
+
     
 //hover effect
 

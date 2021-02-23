@@ -218,6 +218,16 @@ body {
   margin-left: -5px;
 }
 
+.meal-card .card-img-overlay:hover .meal-card__header {
+  background-color: #f3bb04;
+}
+
+.meal-card .card-img-overlay:hover svg path {
+  fill: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .meal-card .meal-card__sub-text {
   font-size: 17px;
   line-height: 32px;
@@ -230,7 +240,7 @@ body {
   text-align: right;
   position: absolute;
   right: 21px;
-  bottom: 15px;
+  bottom: 26px;
 }
 
 .meal-card .Card__images svg path {
