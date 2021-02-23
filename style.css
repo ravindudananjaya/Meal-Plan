@@ -158,24 +158,16 @@ body {
   color: white;
 }
 
-.fade-hover:hover svg path {
-  fill: #fffdfd;
-}
-
 .fade-hover:hover .shopping-list__cart {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  margin-left: 40px;
+  margin-right: 20px;
 }
 
 .fade-hover:hover .shopping-list__arrow {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  margin-right: 40px;
-}
-
-.fade-hover:hover .shopping-list__text-box {
-  padding: 25px 7px;
+  margin-left: 20px;
 }
 
 .fade-hover:hover .shopping-list__header {
@@ -191,11 +183,13 @@ body {
 
 .meal-card {
   width: 100% !important;
-  height: 75% !important;
+  height: 172px !important;
   border: 0px !important;
   margin-bottom: 13px;
   background: transparent;
   border-radius: 13px;
+  -webkit-box-shadow: inset 0px -20px 20px 0px #ffffff;
+          box-shadow: inset 0px -20px 20px 0px #ffffff;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 12px;
@@ -257,8 +251,8 @@ body {
 .meal-card .Card__images {
   text-align: right;
   position: absolute;
-  right: 21px;
-  bottom: 26px;
+  right: 17px;
+  bottom: 14px;
 }
 
 .meal-card .Card__images svg path {
@@ -277,7 +271,7 @@ body {
   width: 45px;
 }
 
-.meal-card .Card__images:hover svg path {
+.Card__images:hover svg path {
   fill: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -301,10 +295,29 @@ body {
 
 .footer svg path {
   fill: #000000;
+  -webkit-transition: 00.3s;
+  transition: 00.3s;
 }
 
 .footer .footer__image:hover {
-  width: 70px;
+  -webkit-transition: 00.3s;
+  transition: 00.3s;
+}
+
+.footer .footer__image:hover circle {
+  fill: #e4a42e;
+  -webkit-transition: 00.3s;
+  transition: 00.3s;
+}
+
+.footer .footer__image:hover #icon path {
+  fill: #fffefe;
+  -webkit-transition: 00.3s;
+  transition: 00.3s;
+}
+
+.footer .footer__image:hover g {
+  fill: #e4a42e;
   -webkit-transition: 00.3s;
   transition: 00.3s;
 }

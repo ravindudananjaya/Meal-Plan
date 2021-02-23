@@ -1,33 +1,33 @@
 body {
-	background-color: black;	
-	font-family: 'Poppins', sans-serif;	
+background-color: black;	
+font-family: 'Poppins', sans-serif;	
 }
 
 
 
 .width-auto{
-    width: auto;
+width: auto;
 }
 
 .marg-bottom {
-	margin-bottom: -29px;
+margin-bottom: -29px;
 }
 
 .no-padding-left{
-    padding-left: 0px !important;
+padding-left: 0px !important;
 }
 
 .no-padding-right{
-    padding-right: 0px !important;
+padding-right: 0px !important;
 }
 
 .layer-down{
-    z-index: -1;
+z-index: -1;
 }
 
 .navigation-bar {
-	background-color: white!important;
-	padding: 25px 15px;
+    background-color: white!important;
+    padding: 25px 15px;
     text-align: center;
     color: black;
 
@@ -53,27 +53,27 @@ body {
 
 // HOVER EFFECT
 
-        .navigation-bar__info-col:hover{
-            svg path {
-                fill: rgb(145, 144, 144);
-                transition: 0.3s;
-            }
-        }
-
-        .navigation-bar__back-col:hover{
-            svg path {
-                fill: rgb(145, 144, 144);
-                transition: 0.3s;
-            }
+    .navigation-bar__info-col:hover{
+        svg path {
+            fill: rgb(145, 144, 144);
+            transition: 0.3s;
         }
     }
+
+    .navigation-bar__back-col:hover{
+        svg path {
+            fill: rgb(145, 144, 144);
+            transition: 0.3s;
+        }
+    }
+}
 }
 
 
 
 .meal-stats {
-	color: #f8f9fac7;
-	padding: 16px 33px;
+    color: #f8f9fac7;
+    padding: 16px 33px;
 
     .meal-stats__digit {
         font-size: 8vw;
@@ -85,7 +85,7 @@ body {
         padding-top: 19px;
         font-weight: 700;
     }
-      
+    
     .meal-stats__type {
         font-size: 3.5vw;
         text-align: center !important;
@@ -96,17 +96,17 @@ body {
 
 
 .shopping-list {
-	width: 90%;
-	margin-bottom: 42px;
-	margin-top: 10px;
-	padding: 14px 10px;
+    width: 90%;
+    margin-bottom: 42px;
+    margin-top: 10px;
+    padding: 14px 10px;
 
     .shopping-list__box {
         background: linear-gradient(89deg, #FFBA00 -2.48%, #FBD56E 145.24%);
         border-radius: 8px;
         padding: 8px 7px;
         // transition: 0.3s;
-        
+    
         .shopping-list__cart {
             padding: 7px 0px;
             width: 6vw;
@@ -146,9 +146,7 @@ body {
             font-weight: 400;
             transition: 0.3s;
         }    
-        
-        
-        
+
         svg path {
             fill: rgb(0, 0, 0);
         }
@@ -157,65 +155,63 @@ body {
 
 
 //hover effect
-                .fade-hover {
-                    border: none;
-                    color: rgb(0, 0, 0);
-                    text-align: center;
-                    // transition: 0.3s;
+            .fade-hover {
+                border: none;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                // transition: 0.3s;
+            }
+            
+            .fade-hover:hover {
+                color: rgb(255, 255, 255);
+
+                svg path {
+                    // fill: rgb(255, 253, 253);
                 }
+
+                .shopping-list__cart{
+                    transition: 0.3s;
+                    // width: 7vw;
+                    // margin-left: 40px;
+                    // padding:20px 0px;
+                    margin-right: 20px;
+                }
+
+                .shopping-list__arrow {
+                    transition: 0.3s;
+                    // width: 4vw;
+                    margin-left: 20px;
+                    // padding:20px 0px;
+                    // margin-right: 40px;
+                }
+
+                .shopping-list__text-box {
+                    // padding: 25px 7px;
+                }
+
+                .shopping-list__header {
+                    transition: 0.3s;
+                    font-weight: 600;
+                }
+
+                .shopping-list__sub-text {
+                    // display: none;
+                    transition: 0.3s;
+                } 
+
                 
-                .fade-hover:hover {
-                    color: rgb(255, 255, 255);
-                    // background: linear-gradient(89deg, #3b3b3b -2.48%, #fac942 145.24%);
-                    // transition: 0.3s;
-   
-                    svg path {
-                        fill: rgb(255, 253, 253);
-                    }
-
-                    .shopping-list__cart{
-                        transition: 0.3s;
-                        // width: 7vw;
-                        margin-left: 40px;
-                        // padding:20px 0px;
-                        // margin-right: 40px;
-                    }
-
-                    .shopping-list__arrow {
-                        transition: 0.3s;
-                        // width: 4vw;
-                        margin-right: 40px;
-                        // padding:20px 0px;
-                        // margin-right: 40px;
-                    }
-
-                    .shopping-list__text-box {
-                        padding: 25px 7px;
-                    }
-
-                    .shopping-list__header {
-                        transition: 0.3s;
-                        font-weight: 600;
-                    }
-
-                    .shopping-list__sub-text {
-                        // display: none;
-                        transition: 0.3s;
-                    } 
-
-                   
-                }
+            }
 
 
 
 .meal-card {
-	width: 100% !important;
-    height: 75% !important;
-	border: 0px !important;
-	margin-bottom: 13px; 
-	background: transparent;
+    width: 100% !important;
+    height: 172px !important;
+    border: 0px !important;
+    margin-bottom: 13px; 
+    background: transparent;
     border-radius: 13px;
-    // box-shadow:inset 0px -20px 20px 0px #ffffff;
+    box-shadow:inset 0px -20px 20px 0px #ffffff;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 12px;
@@ -244,43 +240,43 @@ body {
         width: 100%;
         height: 172px;
     }
- 
+
 
     .meal-card__header {
-		font-size: 18px;
-		font-weight: 600;
-		border-radius: 10px;
-		background-color: #5d5d5d;
-		margin-left: -5px;
-	}
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 10px;
+        background-color: #5d5d5d;
+        margin-left: -5px;
+    }
 
     .card-img-overlay:hover {
         .meal-card__header {;
             background-color: #f3bb04;
         }
-      
+        
         svg path {
             fill: rgb(255, 255, 255);
             transition: 0.3s;
         }
 
-	}
+    }
 
-	.meal-card__sub-text {
-		font-size: 17px;
-		line-height: 32px;
-		padding-left: 4px;
-		font-weight: 600;
-		margin-left: -5px;
-	}
+    .meal-card__sub-text {
+        font-size: 17px;
+        line-height: 32px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-left: -5px;
+    }
 
     .Card__images {
         text-align: right;
         position: absolute;
-        right: 21px;
-        bottom: 26px;
+        right: 17px;
+        bottom: 14px;
 
-         svg path {
+            svg path {
             fill: black;
             transition: 0.3s;
         }
@@ -296,8 +292,9 @@ body {
     }
 
 
-    
-//hover effect
+    }    
+
+    //hover effect
 
     .Card__images:hover{
         svg path {
@@ -305,19 +302,19 @@ body {
             transition: 0.3s;
         }
     }
-}
 
 
 
 
-  .footer {
+
+.footer {
     position: fixed;
     right: 38px;
     bottom: 27px;
     color: rgb(0, 0, 0);
     text-align: center;
     z-index: 45;
-    
+
     .footer__image{
         width: 60px;
         height: 64px;
@@ -326,12 +323,28 @@ body {
 
     svg path {
         fill: #000000;
+        transition: 00.3s;
     }
 
 //hover effect  
     .footer__image:hover{
-        width: 70px;
         transition: 00.3s;
+
+        circle{
+            fill: rgb(228, 164, 46);
+            transition: 00.3s;
+        }
+
+        #icon path {
+            fill: #fffefe;
+            transition: 00.3s;
+        }
+        
+        g {
+            fill:rgb(228, 164, 46);
+            transition: 00.3s;
+        }
     }
+    
 }
 
