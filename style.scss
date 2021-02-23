@@ -5,7 +5,9 @@ body {
 
 
 
-
+.width-auto{
+    width: auto;
+}
 
 .marg-bottom {
 	margin-bottom: -29px;
@@ -132,14 +134,14 @@ body {
         
         .shopping-list__header {
             margin-bottom: 0rem;
-            font-size: 4.6vw;
+            font-size: 16px;
             font-weight: 600;
             transition: 0.3s;
             line-height: 1;
         }
         
         .shopping-list__sub-text {
-            font-size: 3.2vw;
+            font-size: 13px;
             margin-bottom: 0rem;
             font-weight: 400;
             transition: 0.3s;
